@@ -13,12 +13,13 @@ instructions.
 
 ### Requirements
 - [Ruby](https://www.ruby-lang.org/es/documentation/installation/) (2.6.3)
-- [sqlite3](https://www.sqlite.org/download.html)
 - [Bundler](https://bundler.io/gemfile.html)
 
 ### Installation 
-After cloning the project and meeting the requirements run the following command in a terminal
+After cloning the project and meeting the requirements run the following commands in a terminal
 in the project root folder:
+
+`sudo gem install bundler`
 
 `bundle install`
 
