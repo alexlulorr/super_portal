@@ -23,7 +23,7 @@ in the project root folder:
 
 `bundle install`
 
-### Installation 
+### Run your application 
 Start your local server by running the following command in a terminal in the root folder:
 
 `bundle exec rails server`
