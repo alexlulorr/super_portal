@@ -36,3 +36,4 @@
 .idea/
 .project
 Thumbs.db
+vendor/cache/*
