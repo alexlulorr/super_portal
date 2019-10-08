@@ -28,7 +28,7 @@ Start your local server by running the following command in a terminal in the ro
 
 `bundle exec rails server`
 
-Your app will be running in `http://localhost:3000/`
+Your app will be running at `http://localhost:3000/`
 
 ## Landing Page
 
