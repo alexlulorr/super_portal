@@ -3,7 +3,7 @@ UI Developer - Candidate Test
 
 ## Overview
 It's always been your dream to build your own real estate portal. 
-You lucky strike a deal with EasyBroker and they offer you to finance the project.
+You lucky strike a deal with EasyBroker and they offer you to finance your project.
 You want to impress them with your fancy design you've been working on for months, 
 but first you need to build a sneak peek.
 
@@ -30,8 +30,15 @@ Start your local server by running the following command in a terminal in the ro
 
 Your app will be running at `http://localhost:3000/`
 
-## Landing Page
+## Your design
+Right now what you can show in a limited time is two sections. Your Landing Page and a Property Page.
 
-## Property List
+### Landing Page
+You can find your Mockup to implement [here](mockups/landing)
 
-## Property Page
+### Property Page
+You can find your Mockup to implement [here](mockups/property)
+
+
+### Style Guide
+You can find some information about the styles used in [here](style-guide.md)

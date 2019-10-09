@@ -11,20 +11,25 @@ The designs were created to the following widths:
 
 ### Colors
 
-- Primary: #4573FF
-- Secondary: #7045FF
-- Tertiary: #4DC9FF
-- Body: #202539
-- Gray: #C3C9DB
+- Accent: rgba(38,38,39, .9)
+- Body: #262627
+- Gray: #5C5C5D
+- Light Gray: #939393
 - Success: #45E5B0
 - Warning: #FFCA45
 - Danger: #FF4D4D
 
 ### Typography
+- Base font size: 18px
 
-- Base font size: 17px
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 400, 600, 700
+#### Main Titles
+- Family: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
+- Weights: 500, 700
+
+### Body
+- Base font size: 18px
+- Family: [Arimo](https://fonts.google.com/specimen/Arimo)
+- Weights: 300, 500, 700
 
 ### Icons
 
