@@ -41,7 +41,7 @@ You want to implement an agent carousel instead of the [last section](/mockups/l
 the Landing Page. You found inspiration in other web page where their solution looks like 
 [this](/mockups/landing/agent%20carousel.png). Your task is to implement something very similar.
 
-For this challenge we provide you a library called [Owl Carousel](/vendor/javascript/OwlCarousel2) 
+For this challenge we provide you a library called [Owl Carousel](/vendor/javascript/OwlCarousel2),
 but feel to use any library you like. You can find Owl Carousel documentation [here](https://owlcarousel2.github.io/OwlCarousel2/).
 
 #### Extra points
@@ -55,5 +55,5 @@ You can find your single Property Page design [here](mockups/property).
 Take into account that the first section is a carousel. As mention before you can use [Owl Carousel](/vendor/javascript/OwlCarousel2)
 or any library you like.
 
-### Style Guide
-You can find some information about the styles used in [here](style-guide.md).
+## Style Guide
+You can find some information about the styles required in the Mockups [here](style-guide.md).
