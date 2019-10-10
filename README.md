@@ -45,7 +45,7 @@ For this challenge we provide you a library called [Owl Carousel](/vendor/javasc
 but feel to use any library you like. You can find Owl Carousel documentation [here](https://owlcarousel2.github.io/OwlCarousel2/).
 
 #### Extra points
-1. The agent carousel must have some interactions buttons similar to this: [Video](https://recordit.co/DFoJfMBVXl).
+1. The agent carousel must have some interactions buttons similar to this: [GIF](http://g.recordit.co/Y5X0m1drDC.gif).
 2. Add some animations. As you might notice the carousel items have some animations to show more content on hover.
 It would be nice if you can add the same animations to your agent items. Here is more inspiration: [GIF](http://g.recordit.co/Xf5Sd0YDkC.gif)
 
