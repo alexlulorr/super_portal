@@ -12,7 +12,9 @@
  *
  */
 @import "bootstrap";
+@import "../../../vendor/assets/stylesheets/owl.carousel.min";
+@import "../../../vendor/assets/stylesheets/owl.theme.default.min";
 
-h1 {
+h1, h2 {
   color:  #4573FF;
 }

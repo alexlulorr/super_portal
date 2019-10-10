@@ -4,13 +4,7 @@
 Please use the latest version of [Bootstrap](https://getbootstrap.com/). 
 It is already installed and ready to use as a gem in the Gemfile file.
 
-### Layout
-The designs were created to the following widths:
-- Mobile: 375px
-- Desktop: 1440px
-
 ### Colors
-
 - Accent: rgba(38,38,39, .9)
 - Body: #262627
 - Gray: #5C5C5D
@@ -32,6 +26,5 @@ The designs were created to the following widths:
 - Weights: 300, 500, 700
 
 ### Icons
-
 Use the following font icon library:
 - [Font Awesome](https://fontawesome.com/)
