@@ -25,23 +25,20 @@ Start your local server by running the following:
 Your app will launch and be available at `http://localhost:3000/`
 
 ## Web Page Designs
-Right now you want to finish two pages: A Landing Page and a Property Page.
+Your job is to write the HTML, CSS, and possibly JavaScript for two web pages: The Landing Page and a Property Page.
 
 ### The Landing Page
-Get started by your [Landing Page](mockups/landing) design. 
+Get started by reviewing your [Landing Page](mockups/landing) design. 
 
 You want to change the [last section](/mockups/landing/section%20to%20replace.png) of the page to a carousel similar to this [one](/mockups/landing/agent%20carousel.png). We recommend you use [Owl Carousel](/vendor/javascript/OwlCarousel2) in vendor,
 but feel free to use any library you like. You can find Owl Carousel documentation [here](https://owlcarousel2.github.io/OwlCarousel2/).
 
 #### Extra points
-1. The agent carousel must have navigation buttons similar to these: [GIF](http://g.recordit.co/Y5X0m1drDC.gif).
-2. Add some animations to show more content for each agent in the carousel. Here is some inspiration: [GIF](http://g.recordit.co/Xf5Sd0YDkC.gif)
+1. Add agent carousel navigation buttons similar to this [GIF](http://g.recordit.co/Y5X0m1drDC.gif).
+2. Add animation to show more content for each agent in the carousel similar to this [GIF](http://g.recordit.co/Xf5Sd0YDkC.gif)
 
 ### The Property Page
-You can find your single Property Page design [here](mockups/property). 
-
-Take into account that the first section is a carousel. As mentioned before you can use [Owl Carousel](/vendor/javascript/OwlCarousel2)
-or any library you like.
+Review the Property Page design [here](mockups/property) and be sure to take into account that the first section is a carousel. You can also use [Owl Carousel](/vendor/javascript/OwlCarousel2) here or any library you like.
 
 ## Style Guide
 Make sure you code meets all the style requirments by following the [style guide](style-guide.md).
