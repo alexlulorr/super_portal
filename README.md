@@ -28,7 +28,7 @@ Your app will launch and be available at `http://localhost:3000/`
 Your job is to write the HTML, CSS, and possibly JavaScript for two web pages: The Landing Page and a Property Page.
 
 ### The Landing Page
-Get started by reviewing your [Landing Page](mockups/landing) design. 
+Get started by reviewing your [Landing Page](mockups/lading-mockup.png) design. 
 
 You want to change the [last section](/mockups/landing/section-to-replace.png) of the page to a carousel similar to this [one](/mockups/landing/agent-carousel.png). We recommend you use [Owl Carousel](/vendor/javascript) in vendor,
 but feel free to use any library you like. You can find Owl Carousel documentation [here](https://owlcarousel2.github.io/OwlCarousel2/).
@@ -38,7 +38,7 @@ but feel free to use any library you like. You can find Owl Carousel documentati
 2. Add animation to show more content for each agent in the carousel similar to this [GIF](http://g.recordit.co/Xf5Sd0YDkC.gif)
 
 ### The Property Page
-Review the Property Page design [here](mockups/property) and be sure to take into account that the first section is a carousel. You can also use [Owl Carousel](/vendor/javascript) here or any library you like.
+Review the Property Page design [here](mockups/single-property.png) and be sure to take into account that the first section is a carousel. You can also use [Owl Carousel](/vendor/javascript) here or any library you like.
 
 ## Style Guide
 Make sure you code meets all the style requirments by following the [style guide](style-guide.md).
