@@ -24,7 +24,7 @@ The two designs that you need to "maquetear" are
 In both pages there are carousels and we recommend you use the [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/) which is already installed in the vendor directory.
 
 ### Home Page
-Your home page consists of the following:
+The home page consists of the following:
 1. Contact header with a search input
 2. A Menu
 3. A hero image with your 2 main select filters with the following options:
@@ -35,7 +35,7 @@ Your home page consists of the following:
 6. Contact footer
 
 ### Property Page
-Your property page consists of the following:
+The property page consists of the following:
 1. Contact header with a search input
 2. A Menu
 3. Title and address section
