@@ -1,48 +1,59 @@
-# Super Portal
-UI Developer - Candidate Test
-
+# Super Portal - UI Developer Candidate Project
 ## Overview
-It's always been your dream to build your own real estate portal. You luckily strike a deal with EasyBroker and they offer to finance your project. You want to impress them with the fancy design you've been working on and you need to build the first design prototype.
+Your mission if you choose to accept it is to convert two web page designs into an actual web pages in a Rails project. We'll be reviewing the pages for how well you structure your HTML, CSS and even maybe your ability to use a bit of JavaScript. You might want to read up a little on where to put your CSS or ahem maybe SCSS in how to structure your files in rails project.
 
-## Technical Considerations
-EasyBroker provided a base project which was created following the [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) 
-instructions. To get it up in running you need to install
+## Getting Started
+We used the [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) instructions to set up a new project in a repo to speed up your setup. You'll still need clone this repo and install
 
 - [Ruby](https://www.ruby-lang.org/es/documentation/installation/) (2.6.3)
 - [Bundler](https://bundler.io/gemfile.html)
 
-### Installation 
-After cloning the project and installing ruby and bundler run the following commands in a terminal
-in the project root folder:
+on your local machine and then run 
 
 `bundle install`
 
-### Run your application 
-Start your local server by running the following:
+To install all the other required gems. You can then start a server which you can access at [http://localhost:3000/]() by running
 
 `bundle exec rails server`
 
-Your app will launch and be available at `http://localhost:3000/`
-
 ## Web Page Designs
-Your job is to write the HTML, CSS, and possibly JavaScript for two web pages: The Landing Page and a Property Page.
+The two designs that you need to "maquetear" are
+- [Home Page](mockups/home-page.png)
+- [Property Page](mockups/property-page.png)
 
-### The Landing Page
-Get started by reviewing your [Landing Page](mockups/lading-mockup.png) design. 
+In both pages there are carousels and we recommend you use the [Owl Carousel](https://owlcarousel2.github.io/OwlCarousel2/) which is already installed in the vendor directory.
 
-Your lading page consists of the following:
-1. Contact header
-2. A hero image with your 2 main select filters with the following options:
-    1. Property operations: Sale, Rent and Vacation Rentals
-    2. Property Types: Apartment, Building, House, Land and Office
-3. A 3x3 grid of featured properties
-4. An agent carousel with the following navigation: [GIF](http://g.recordit.co/9B9bzxw1HZ.gif)
-5. Contact footer
+### Home Page
+Your home page consists of the following:
+1. Contact header with a search input
+2. A Menu
+3. A hero image with your 2 main select filters with the following options:
+    - Property operations: Sale, Rent and Vacation Rentals
+    - Property Types: Apartment, Building, House, Land and Office
+4. A 3x3 grid of featured properties
+5. An agent carousel with navigation arrows: [GIF](http://g.recordit.co/9B9bzxw1HZ.gif)
+6. Contact footer
 
-We recommend you use [Owl Carousel](/vendor/javascript) in vendor, but feel free to use any library you like. You can find Owl Carousel documentation [here](https://owlcarousel2.github.io/OwlCarousel2/).
+### Property Page
+Your property page consists of the following:
+1. Contact header with a search input
+2. A Menu
+3. Title and address section
+4. Property images carousel with navigation arrows: [GIF](http://g.recordit.co/Ydct37Ak4g.gif)
+5. Property details section with a contact form
+6. Property description and amenities section
+7. A responsive map
+8. A 3x1 grid of similar properties
+9. Contact footer
 
-### The Property Page
-Review the Property Page design [here](mockups/single-property.png) and be sure to take into account that the first section is a carousel. You can also use [Owl Carousel](/vendor/javascript) here or any library you like.
+## Style Requirements
+Make sure you code meets all the [style guide](style-guide.md) requirements.
 
-## Style Guide
-Make sure you code meets all the style requirments by following the [style guide](style-guide.md).
+## Deliverables
+You should deliver the project sharing a link to your fork. Keep in mind that the code you deliver should be considered high quality and ready to be used in a production environment and reviewed by your peers. We'll review the code to see if it's clean, clear and uses good practices. Also be sure to replace the notes section below with your own notes.
+
+## Notes
+Add any notes here about your design decisions or improvements you would have made if you had more time. You also might want to consider the following questions for inspiration
+- Are there any areas of your code that you think isn't that "clean"?
+- What would you have done differently if you had more time?
+- If you weren't able to finish, what were you able to complete and were you happy with your progress given the time constraints?
