@@ -30,7 +30,7 @@ Your job is to write the HTML, CSS, and possibly JavaScript for two web pages: T
 ### The Landing Page
 Get started by reviewing your [Landing Page](mockups/landing) design. 
 
-You want to change the [last section](/mockups/landing/section%20to%20replace.png) of the page to a carousel similar to this [one](/mockups/landing/agent%20carousel.png). We recommend you use [Owl Carousel](/vendor/javascript/OwlCarousel2) in vendor,
+You want to change the [last section](/mockups/landing/section-to-replace.png) of the page to a carousel similar to this [one](/mockups/landing/agent-carousel.png). We recommend you use [Owl Carousel](/vendor/javascript/OwlCarousel2) in vendor,
 but feel free to use any library you like. You can find Owl Carousel documentation [here](https://owlcarousel2.github.io/OwlCarousel2/).
 
 #### Extra points
