@@ -38,7 +38,7 @@ but feel free to use any library you like. You can find Owl Carousel documentati
 2. Add animation to show more content for each agent in the carousel similar to this [GIF](http://g.recordit.co/Xf5Sd0YDkC.gif)
 
 ### The Property Page
-Review the Property Page design [here](mockups/property) and be sure to take into account that the first section is a carousel. You can also use [Owl Carousel](/vendor/javascript/OwlCarousel2) here or any library you like.
+Review the Property Page design [here](mockups/property) and be sure to take into account that the first section is a carousel. You can also use [Owl Carousel](/vendor/javascript) here or any library you like.
 
 ## Style Guide
 Make sure you code meets all the style requirments by following the [style guide](style-guide.md).
