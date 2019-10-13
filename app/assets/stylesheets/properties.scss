@@ -84,7 +84,7 @@
 
   .property-features__title {
     @include playfair-bold;
-    color: white;
+    color: rgb(226, 224, 224);
     font-size: 32px;
    
   }
@@ -119,6 +119,13 @@
     height: 62px;
     width: 62px;
     background-color: gray;
+    overflow: hidden;
+    img{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      
+    }
   }
 
   .contact-form__info {
@@ -273,7 +280,11 @@ ul{
     position: relative;
     background-position: center;
     background-image: image-url('EB-B7829-14.jpg');
-
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
   }
   .property-preview__label-top{
     @include align-center;

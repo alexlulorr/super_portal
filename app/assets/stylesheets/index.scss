@@ -116,6 +116,11 @@ form {
     position: relative;
     background-position: center;
     background-image: image-url('EB-B7829-14.jpg');
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
 
   }
 
