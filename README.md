@@ -59,4 +59,7 @@ I used Swipe CDN for the Carwheel animations.
 Sorry I have nothing else to say. I'm exhausted!
 
 
+welcome/index ---> home page
+welcome/properties ---> property page
+
 
