@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SuperPortal</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <script src="https://kit.fontawesome.com/33a552386c.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
+    <%= stylesheet_link_tag    'layout', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_link_tag    'properties', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+</head>
+
+<body>
+<div class="main-container">
+
+  <div class="container navigation-bar">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <a class="navbar-brand " href="#">Praga</a>
+          <span class="navbar__logo-text">Real Estate Company</span>
+        </div>
+        <div class="col">
+          <div class="navbar__contact">
+            <span>Llámanos</span>
+            <span>55 1660 7641</span>
+
+          </div>
+        </div>
+        <div class="col d-flex navbar__icons">
+
+
+          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-facebook-f fa-xs"></i></a></div>
+          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-twitter fa-xs"></i></a></div>
+          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-linkedin-in fa-xs"></i></a></div>
+          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-youtube fa-xs"></i></a></div>
+          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-instagram fa-xs"></i></a></div>
+          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-pinterest fa-xs"></i></a></div>
+          <div class="navbar__icon rounded-circle"><a h ref="#"><i class="fab fa-whatsapp fa-xs"></i></a></div>
+
+        </div>
+        <div class="col d-flex navbar__search-bar">
+          <form class="form-inline">
+            <div class="input-group ">
+            <label for="exampleFormControlSelect1 "class="navbar__label"><i class="fas fa-search"></i>Buscar Propiedades</label>
+              <input type="text" class="form-control border " placeholder="" aria-label="Username"
+                aria-describedby="basic-addon1">
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ventas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rentas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contáctanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Propietarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">¿Quiénes somos?</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+  </div>
+
+
+  <%= yield %>
+
+  <div class="container-fluid footer-area">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-4">
+          <h3>Contáctanos</h3>
+          <ul>
+            <li>
+              Av. Insurgentes Sur 0000, 4o Piso
+            </li>
+            <li>
+              Col. Condesa, 00000, Ciudad de México
+            </li>
+            <li>
+              Teléfono: 505050505
+            </li>
+            <li>
+              daniel@easybroker.com
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-4">
+          <h3>Menú</h3>
+          <ul>
+            <li>
+              Inicio
+            </li>
+            <li>
+              Ventas
+            </li>
+            <li>
+              Rentas
+            </li>
+            <li>
+              Contáctanos
+            </li>
+            <li>
+              Propietarios
+            </li>
+            <li>
+              ¿Quiénes Somos?
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-4">
+          <h3>Contáctanos</h3>
+          <ul>
+            <li>
+              Av. Insurgentes Sur 0000, 4o Piso
+            </li>
+            <li>
+              Col. Condesa, 00000, Ciudad de México
+            </li>
+            <li>
+              Teléfono: 505050505
+            </li>
+            <li>
+              daniel@easybroker.com
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+
+
+      <div class="footer-area__copyright float-right">
+        Powered by EasyBroker
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <div class=" page-accent">
+  </div>
+
+  </div>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        scrollbar: {
+          el: '.swiper-scrollbar',
+          hide: true,
+        },loop: true,
+
+    });
+  </script>
+
+</body>
+
+</html>

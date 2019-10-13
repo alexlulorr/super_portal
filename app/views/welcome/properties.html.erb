@@ -1,75 +1,3 @@
-<div class="main-container">
-
-  <div class="container navigation-bar">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <a class="navbar-brand " href="#">Praga</a>
-          <span class="navbar__logo-text">Real Estate Company</span>
-        </div>
-        <div class="col">
-          <div class="navbar__contact">
-            <span>Llámanos</span>
-            <span>55 1660 7641</span>
-
-          </div>
-        </div>
-        <div class="col d-flex navbar__icons">
-
-
-          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-facebook-f fa-xs"></i></a></div>
-          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-twitter fa-xs"></i></a></div>
-          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-linkedin-in fa-xs"></i></a></div>
-          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-youtube fa-xs"></i></a></div>
-          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-instagram fa-xs"></i></a></div>
-          <div class="navbar__icon rounded-circle"><a href="#"><i class="fab fa-pinterest fa-xs"></i></a></div>
-          <div class="navbar__icon rounded-circle"><a h ref="#"><i class="fab fa-whatsapp fa-xs"></i></a></div>
-
-        </div>
-        <div class="col d-flex navbar__search-bar">
-          <form class="form-inline">
-            <div class="input-group ">
-              <input type="text" class="form-control border" placeholder="" aria-label="Username"
-                aria-describedby="basic-addon1">
-            </div>
-          </form>
-        </div>
-      </div>
-
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light ">
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ventas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Rentas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contáctanos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Propietarios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">¿Quiénes somos?</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-
-  </div>
 
   <div class="container-fluid text-center property-summary">
     <div class="container">
@@ -82,6 +10,18 @@
     </div>
   </div>
   <div class="container-fluid text-center property-image">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><%= image_tag ("EB-B7829-14.jpg") %></div>
+      <div class="swiper-slide"><%= image_tag ("EB-B6263-2.jpg") %></div>
+      <div class="swiper-slide"><%= image_tag ("EB-B6263-1.jpg") %></div>
+      <div class="swiper-slide"><%= image_tag ("EB-B7829-1.jpg") %></div>
+    </div>
+    <!-- Add Scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+
   </div>
 
   <div class="container-fluid text-center property-features">
@@ -255,6 +195,7 @@
 
   <div class="container location-area ">
     <div class="container-fluid location-area__map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.934766622467!2d-99.15111828860313!3d19.371977066826783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffb21deeb251%3A0xe4bf101edd2c4605!2sSevilla%20113%2C%20Portales%20Nte%2C%2003300%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1570939623330!5m2!1sen!2smx" width="1110" height="460" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
     <div class="location-area__address-container">
       <span class="location-area__label">
@@ -363,84 +304,3 @@
 
 
   </div>
-
-  <div class="container-fluid footer-area">
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-4">
-          <h3>Contáctanos</h3>
-          <ul>
-            <li>
-              Av. Insurgentes Sur 0000, 4o Piso
-            </li>
-            <li>
-              Col. Condesa, 00000, Ciudad de México
-            </li>
-            <li>
-              Teléfono: 505050505
-            </li>
-            <li>
-              daniel@easybroker.com
-            </li>
-          </ul>
-
-        </div>
-        <div class="col-4">
-          <h3>Menú</h3>
-          <ul>
-            <li>
-              Inicio
-            </li>
-            <li>
-              Ventas
-            </li>
-            <li>
-              Rentas
-            </li>
-            <li>
-              Contáctanos
-            </li>
-            <li>
-              Propietarios
-            </li>
-            <li>
-              ¿Quiénes Somos?
-            </li>
-          </ul>
-
-        </div>
-        <div class="col-4">
-          <h3>Contáctanos</h3>
-          <ul>
-            <li>
-              Av. Insurgentes Sur 0000, 4o Piso
-            </li>
-            <li>
-              Col. Condesa, 00000, Ciudad de México
-            </li>
-            <li>
-              Teléfono: 505050505
-            </li>
-            <li>
-              daniel@easybroker.com
-            </li>
-          </ul>
-
-        </div>
-      </div>
-
-      <div class="footer-area__copyright float-right">
-        Powered by EasyBroker
-      </div>
-
-
-    </div>
-
-  </div>
-
-  <div class=" page-accent">
-  </div>
-
-</div>

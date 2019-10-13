@@ -1,0 +1,389 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+@import "variables";
+@import "../../../vendor/assets/stylesheets/owl.carousel.min";
+@import "../../../vendor/assets/stylesheets/owl.theme.default.min";
+
+
+
+//-----------------------Main Container-------------------//
+
+.main-container {
+    position: relative;
+}
+
+
+
+//-----------------------Navigation Bar-------------------//
+
+.main-container {
+    position: relative;
+}
+
+
+.col {
+
+    a,
+    span {
+        display: block;
+    }
+
+    a {
+        text-align: center;
+
+    }
+
+
+    .navbar__icon {
+
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+    }
+
+    .fab {
+
+        color: black;
+
+    }
+
+    .d-flex {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar__logo-text {
+        font-family: $font-quicksand;
+        font-size: 16px;
+        color: $light-gray-color;
+    }
+
+}
+
+.navigation-bar{
+    padding: 0px !important;
+}
+
+.navbar-brand {
+    @include playfair-bold;
+    height: 60px;
+    color: black;
+    text-align: left !important;
+    font-size: 40px;
+    
+}
+
+.navbar__label {
+    @include quicksand-bold;
+    position: absolute;
+    left: 18px;
+    top: 12px;
+    pointer-events: none;
+    color: black;
+    z-index: 200;
+    font-size: 16px;
+    i {
+        padding-right: 6px;
+        color: $light-gray-color;
+    }
+}
+
+.navbar__contact {
+@include flex-column;
+    align-items: end;
+    justify-content: center;
+    height: 100%;
+    transform: translateY(5px);
+
+    span:first-child {
+        font-family: $font-quicksand;
+        font-size: 16px;
+        color: $light-gray-color;
+    }
+
+    span {
+        font-family: $font-quicksand;
+        font-size: 24px;
+        color: black;
+    }
+}
+
+.navbar__icons {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__search-bar {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+
+}
+
+.active {
+    border-bottom: 5px solid $border-hover-color;
+}
+
+.navbar {
+@include quicksand-bold;
+    color: black;
+
+    font-size: 16px;
+    padding: 0px;
+}
+
+.nav-link {
+    padding: 1.2rem 1.7rem !important;
+
+}
+
+.nav-item {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.border {
+    border: 1px solid black !important;
+    border-radius: 0%;
+    height: 50px;
+}
+
+.row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+//----------------------- Property Summary-------------------//
+.property-summary {
+    height: 160px;
+    background-color: $light-accent-color;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+
+    .property-summary__address {
+        text-align: left !important;
+        font-family: $font-quicksand;
+        font-size: 16px;
+        color: $light-gray-color;
+
+    }
+
+    .property-summary__title {
+        @include playfair-bold;
+        color: black;
+        text-align: left !important;
+        font-size: 40px;
+    }
+}
+
+//------------------------ Features GRID 2x4 ---------------------------//
+
+.property-features {
+    height: 220px;
+    background-color: $strong-accent-color;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+
+    .container {
+        height: inherit;
+
+        .row {
+            position: relative;
+            height: 100%;
+            margin-bottom: 0px;
+            margin-top: 0px;
+
+            .row:first-child {
+                border-bottom: 1px solid $border-color;
+            }
+
+            .row {
+                height: 50%;
+
+                div:last-child {
+                    border-right: none;
+                }
+
+                div {
+                    border-right: 1px solid $border-color;
+                }
+            }
+        }
+    }
+
+    .property-features__feature {
+     
+        @include flex-column-center;
+
+    }
+
+    .property-features__title {
+        
+        @include playfair-bold;
+        color: white;
+        font-size: 32px;
+        
+    }
+
+    .property-features__description {
+        font-family: $font-quicksand;
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 100;
+    }
+}
+
+
+//--------------------------Contact Form -----------------------//
+.form-inline {
+    width: inherit;
+    margin-left: 10px;
+}
+
+.input-group {
+    width: inherit !important;
+}
+
+.form-group {
+    position: relative;
+
+    input,
+    button {
+        height: 50px;
+    }
+
+    textarea {
+        height: 80px;
+    }
+}
+
+//--------------------Property Description Area --------------------//
+.description-area {
+    height: 720px;
+    font-family: $font-quicksand;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.description-area__description {
+    padding-right: 40px;
+}
+
+.description-area__bullets {
+    list-style-type: none;
+
+}
+
+.bullet {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+//----------------------Property Location Area (Map) ----------------------//
+
+
+.location-area {
+    height: 460px;
+    position: relative;
+
+
+    .location-area__map {
+        height: 100%;
+        width: 100%;
+        background-color: #939393;
+    }
+
+    .location-area__address-container {
+        @include flex-column;
+        font-family: $font-quicksand;
+        justify-content: center;
+        position: absolute;
+        height: 80px;
+        width: 530px;
+        color: white;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+        background-color: black;
+        opacity: 0.6;
+
+        padding-left: 18px;
+    }
+
+    .location-area__label {
+        font-size: 16px;
+        color: $light-gray-color;
+    }
+
+    .location-area__address {
+        i {
+            color: $light-gray-color;
+        }
+
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+}
+
+
+
+
+//--------------------------------Footer Area ------------------------------//
+
+.footer-area {
+    height: 412px;
+    font-family: $font-quicksand;
+    background-color: #262627;
+    color: white;
+    width: 1440px;
+
+    h3 {
+        @include playfair-bold;
+        font-size: 34px;
+        
+
+
+    }
+
+    ul {
+        padding-top: 10px;
+        font-size: 16px;
+        color: $light-gray-color;
+    }
+
+    .container .row {
+        height: 330px;
+        border-bottom: 1px solid white;
+
+        .col-4 {
+            padding-top: 50px;
+        }
+    }
+}
+
+.page-accent {
+    height: 1210px;
+    background-color: #F9F5F2;
+    width: 1440px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+}
+

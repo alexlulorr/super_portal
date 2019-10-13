@@ -1,0 +1,320 @@
+
+@import "variables";
+
+//----------------------- Property Summary-------------------//
+.property-image {
+  width: 1440px;
+  height: 450px;
+  background-position: center;
+  background-image: image-url('EB-B7829-14.jpg');
+  padding: 0px !important;
+  cursor: grab;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.property-summary {
+  @include flex-center;
+  height: 160px;
+  background-color: #F9F5F0;
+  width: 1440px;
+  
+
+  .property-summary__address {
+    text-align: left !important;
+    font-family: $font-quicksand;
+    font-size: 16px;
+    color: $light-gray-color;
+
+  }
+
+  .property-summary__title {
+    color: black;
+    text-align: left !important;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: $font-playfair;
+  }
+}
+
+//------------------------ Features GRID 2x4 ---------------------------//
+.property-features {
+  @include flex-center;
+  height: 220px;
+  background-color: $strong-accent-color;
+  width: 1440px;
+
+  .container {
+    height: inherit;
+
+    .row {
+      position: relative;
+      height: 100%;
+      margin-bottom: 0px;
+      margin-top: 0px;
+
+      .row:first-child {
+        border-bottom: 1px solid $light-gray-color;
+      }
+
+      .row {
+        height: 50%;
+
+        div:last-child {
+          border-right: none;
+        }
+
+        div {
+          border-right: 1px solid $light-gray-color;
+        }
+      }
+    }
+  }
+
+  .property-features__feature {
+@include flex-column-center;
+  }
+
+  .property-features__title {
+    @include playfair-bold;
+    color: white;
+    font-size: 32px;
+   
+  }
+
+  .property-features__description {
+    font-family: $font-quicksand;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
+  }
+}
+
+//--------------------- Contact Form Send Your Messsage -----------------------------//
+
+.contact-form__input {
+  @include quicksand-bold;
+  font-size: 16px;
+  
+}
+
+.contact-form {
+  right: 0px;
+  position: absolute;
+  background-color: white;
+  height: 518px;
+  padding-right: 0px;
+  padding-left: 0px;
+
+  .contact-form__thumbnail {
+    border-radius: 50%;
+    height: 62px;
+    width: 62px;
+    background-color: gray;
+  }
+
+  .contact-form__info {
+    @include flex-column-center;
+
+  }
+
+  .contact-form__name {
+    font-family: $font-quicksand;
+    font-size: 24px;
+    text-transform: capitalize;
+
+  }
+
+  .contact-form__user-input {
+    border: 1.5px solid black;
+    text-transform: capitalize;
+    border-radius: 0px;
+
+  }
+
+  .contact-form__container {
+    padding: 24px 44px 44px 44px;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  .contact-form__phone {
+    @include quicksand-bold;
+    color: $light-gray-color;
+    font-size: 16px;
+  }
+
+  .contact-form__header {
+    @include flex-column-center;
+    height: 165px;
+  }
+
+  .contact-form__label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    pointer-events: none;
+  }
+
+  .contact-form__button {
+    background-color: black;
+    border-radius: 0px;
+    border: 1.5px solid black;
+    height: 50px;
+
+  }
+
+}
+  //--------------------Property Description Area --------------------//
+
+.description-area {
+  height: 720px;
+  font-family: $font-quicksand;
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+.description-area__description {
+  padding-right: 40px;
+}
+
+.description-area__bullets{
+  list-style-type: none;
+
+}
+.bullet{
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+//----------------------Property Location Area (Map) ----------------------//
+
+
+.location-area{
+  height: 460px;
+  position: relative;
+
+
+  .location-area__map{
+    height: 100%;
+    width: 100%;
+    background-color: #939393;
+    padding: 0px;
+  }
+  .location-area__address-container{
+    @include flex-column;
+    font-family: $font-quicksand;
+    justify-content: center;
+    position: absolute;
+    height: 80px;
+    width: 530px;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: black;
+    opacity: 0.6;
+    padding-left: 18px;
+  }
+
+  .location-area__label{
+    font-size: 16px;
+    color: $light-gray-color;
+  }
+  .location-area__address{
+    i {
+      color: $light-gray-color;
+    }
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+
+}
+// ------------------- Block Header ----------------------- //
+
+.block-header{
+  height: 120px;
+  h3{
+    @include playfair-bold;
+    font-size: 32px;
+    padding-top: 55px;
+  }
+}
+//---------------------------- Similar Properties ------------------------//
+
+.property-preview{
+  @include flex-space-between;
+}
+.property-preview__container{
+  @include flex-column;
+  height: 435px;
+  width: 350px;
+  align-items: flex-start;
+  .property-preview__card{
+    width: inherit;
+    height: 260px;
+    background-color: $gray-color;
+    position: relative;
+    background-position: center;
+    background-image: image-url('EB-B7829-14.jpg');
+
+  }
+  .property-preview__label-top{
+    @include align-center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 95px;
+    height: 45px;
+    background-color: white;
+    opacity: 0.6;
+    color: $gray-color;
+    display: flex;
+    
+
+  }
+  .property-preview__label-bottom{
+    @include align-center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 162px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    display: flex;
+    font-size: 26px;
+  }
+  
+  .property-preview__features{
+    @include quicksand-bold;
+    font-size: 16px;
+    color: $light-gray-color;
+    span{       
+      margin-right: 15px;
+        }
+  }
+  .property-preview__description{
+    @include quicksand-bold;
+    font-size: 16px;
+    
+  }
+
+}

@@ -1,0 +1,43 @@
+//--------------------------Variable assignment----------------------//
+$accent-color:rgba(38, 38, 39, .9);
+$body-color: #262627;
+$gray-color: #5C5C5D;
+$light-gray-color: #939393;
+$success-color: #45E5B0;
+$warning-color : #FFCA45;
+$danger-color: #FF4D4D;
+$border-hover-color: #D1B389;
+$strong-accent-color: #262627;
+$light-accent-color: #F9F5F0;
+$font-playfair:"Playfair Display script=all rev=1","Adobe Blank";
+$font-quicksand:'Quicksand',sans-serif;
+
+@mixin quicksand-bold {
+    font-family: $font-quicksand;
+    font-weight: 900;
+}
+@mixin playfair-bold {
+    font-family: $font-playfair;
+    font-weight: 900;
+}
+@mixin flex-column{ 
+    display: flex;
+    flex-direction: column;
+}
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+}
+@mixin flex-space-between{ 
+    display: flex;
+    justify-content: space-between
+}
+@mixin align-center {
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-column-center {
+    @include flex-column;
+    @include align-center;
+}

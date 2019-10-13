@@ -1,0 +1,235 @@
+
+
+@import "variables";
+
+//----------------------- Property Summary-------------------//
+.property-image {
+  width: 1440px;
+  height: 590px;
+  background-position: center;
+  background-image: image-url('lading-hero.png');
+  margin-bottom: 45px;
+}
+
+
+//-------------------Landing Page Form------------------------------//
+//-------------------Encuentra tu nueva casa------------------------------//
+
+
+.landing-form {
+  background-color: #262627;
+  opacity: 0.8;
+  color: white;
+  height: 450px;
+  width: 470px;
+  margin-top: 75px;
+  margin-left: 150px;
+  padding: 40px 70px;
+
+
+}
+
+.landing-form__input {
+  @include quicksand-bold;
+}
+
+.landing-form__button {
+  background-color: white;
+  border-radius: 0px;
+  border: 1.5px solid white;
+  height: 50px;
+  color: black;
+}
+
+.landing-form__caret {
+  position: absolute;
+  right: 27px;
+  top: 19px;
+}
+
+.landing-form__select {
+  background-color: transparent;
+  border: 1.5px solid white;
+  text-transform: capitalize;
+  border-radius: 0px;
+  appearance: none;
+  height: 50px;
+}
+
+.landing-form__title {
+  @include playfair-bold;
+  @include flex-column;
+
+  font-size: 53px;
+  text-align: left;
+  span:first-child {
+    height: 50px;
+  }
+
+  span:last-child {
+    padding-bottom: 30px;
+  }
+}
+
+.landing-form__label {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  pointer-events: none;
+}
+
+form {
+  label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    pointer-events: none;
+  }
+}
+
+
+// ------------------- Block Header ----------------------- //
+.block-header {
+  height: 100px;
+
+  h3 {
+    @include playfair-bold;
+    font-size: 32px;
+    padding-top: 0px;
+  }
+}
+//---------------------------- Similar Properties ------------------------//
+.property-preview {
+@include flex-space-between;
+}
+
+.property-preview__container {
+  @include flex-column;
+  height: 350px;
+  width: 350px;
+  align-items: flex-start;
+
+  .property-preview__card {
+    width: inherit;
+    height: 260px;
+    background-color: #5C5C5D;
+    position: relative;
+    background-position: center;
+    background-image: image-url('EB-B7829-14.jpg');
+
+  }
+
+  .property-preview__label-top {
+    @include align-center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 95px;
+    height: 45px;
+    background-color: white;
+    opacity: 0.6;
+    color: $gray-color;
+    display: flex;
+  }
+
+  .property-preview__label-bottom {
+    @include align-center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 162px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    display: flex;
+    font-size: 26px;
+  }
+
+  .property-preview__features {
+    @include quicksand-bold;
+    font-size: 16px;
+    color: $light-gray-color;
+
+    span {
+      margin-right: 15px;
+    }
+  }
+
+  .property-preview__description {
+    @include quicksand-bold;
+    font-size: 16px;
+  }
+
+}
+
+.agent-preview {
+  @include flex-space-between;
+  width: 1015px;
+  height: 420px;
+  position: relative;
+  
+}
+
+.agent-preview__card {
+  @include flex-column;
+  width: 230px;
+  align-items: center;
+
+}
+
+.agent-preview__image {
+  width: inherit;
+  height: 330px;
+  background-color: $light-gray-color;
+}
+
+.agent-preview__contact-info {
+  @include flex-column-center;
+  width: 185px;
+  height: 85px;
+  transform: translateY(-41px);
+  background-color: white;
+}
+.agent-preview__agent-name {
+  @include quicksand-bold;
+  font-size: 18px;
+  text-transform: capitalize;
+
+}
+.agent-preview__agent-phone {
+  @include quicksand-bold;
+  color: $light-gray-color;
+  font-size: 16px;
+  i {
+    margin-right: 5px;
+  }
+}
+
+.agent-preview__next-button{
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  position: absolute;
+  right: -25px;
+  top: 115px;
+  z-index: 300;
+  i{
+    font-size: 40px;
+    position: absolute;
+    top: 18px;
+    left: 22px;
+    margin: auto;
+    color: $strong-accent-color;
+  }
+}
+
+.button-special{
+transform: translateX(16px);
+cursor: pointer;
+}
+
+.button-dummie{
+  pointer-events: none;
+  
+}
