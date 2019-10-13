@@ -53,10 +53,10 @@ Make sure you code meets all the [style guide](style-guide.md) requirements.
 You should deliver the project sharing a link to your fork. Keep in mind that the code you deliver should be considered high quality and ready to be used in a production environment and reviewed by your peers. We'll review the code to see if it's clean, clear and uses good practices. Also be sure to replace the notes section below with your own notes.
 
 ## Notes
-Add any notes here about your design decisions or improvements you would have made if you had more time. You also might want to consider the following questions for inspiration
-- Are there any areas of your code that you think isn't that "clean"?
-- What would you have done differently if you had more time?
-- If you weren't able to finish, what were you able to complete and were you happy with your progress given the time constraints?
+I didn't like how my code for the navbar came out. I think it could've cleaner.
+I used Swipe CDN for the Carwheel animations.
+
+Sorry I have nothing else to say. I'm exhausted!
 
 
 
