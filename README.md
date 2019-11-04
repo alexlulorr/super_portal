@@ -1,21 +1,3 @@
-# Super Portal - UI Developer Candidate Project
-## Overview
-Your mission if you choose to accept it is to convert two web page designs into an actual web pages in a Rails project. We'll be reviewing the pages for how well you structure your HTML, CSS and even maybe your ability to use a bit of JavaScript. You might want to read up a little on where to put your CSS or ahem maybe SCSS in how to structure your files in rails project.
-
-## Getting Started
-We used the [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) instructions to set up a new project in a repo to speed up your setup. You'll still need clone this repo and install
-
-- [Ruby](https://www.ruby-lang.org/es/documentation/installation/) (2.6.3)
-- [Bundler](https://bundler.io/gemfile.html)
-
-on your local machine and then run 
-
-`bundle install`
-
-To install all the other required gems. You can then start a server which you can access at [http://localhost:3000/]() by running
-
-`bundle exec rails server`
-
 ## Web Page Designs
 The two designs that you need to "maquetear" are
 - [Home Page](mockups/home-page.png)
@@ -50,14 +32,7 @@ The property page consists of the following:
 Make sure you code meets all the [style guide](style-guide.md) requirements.
 
 ## Deliverables
-You should deliver the project sharing a link to your fork. Keep in mind that the code you deliver should be considered high quality and ready to be used in a production environment and reviewed by your peers. We'll review the code to see if it's clean, clear and uses good practices. Also be sure to replace the notes section below with your own notes.
-
-## Notes
-I didn't like how my code for the navbar came out. I think it could've cleaner.
-I used Swipe CDN for the Carwheel animations.
-
-Sorry I have nothing else to say. I'm exhausted!
-
+You should deliver the project sharing a link to your fork. Keep in mind that the code you deliver should be considered high quality and ready to be used in a production environment and reviewed by your peers.
 
 welcome/index ---> home page
 welcome/properties ---> property page
